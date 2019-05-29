@@ -11,8 +11,8 @@ print('Что ж, ' + myName + ' я загадаю число от 1 до 20.')
 
 for guessesTaken in range(6):
 	print('Попробуй угадать.')
-	guess = input()
-	guess = int(guess)
+	guess = int(input())
+#	guess = int(guess)
 
 	if guess < number:
 		print('Твоё число слишком маленькое')
